@@ -1,5 +1,8 @@
-<table class="w-full border-collapse border-2 border-gray-200 rounded-xl shadow-gray-400 shadow-lg">
+<table class="w-full border-collapse border-2 border-gray-200 shadow-gray-400 shadow-lg mb-6">
     <tbody>
+        <tr class="bg-violet-500">
+            <th colspan="4" class="text-base px-1 py-2 text-white font-bold">{{$bookmaker['name']}} @lang('review.Sports')</th>
+        </tr>
         @foreach($bookmaker['sports'] as $sport)
             @if($loop->index % 4 === 0)
                 <tr class="{{ $loop->index % 8 === 0 ? '' : 'bg-gray-100' }}">

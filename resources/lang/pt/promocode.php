@@ -1,7 +1,15 @@
 <?php
 
 return [
-    'title' => 'Códigos Promocionais & Bônus da :bookmaker',
-    'description' => 'Receba os códigos promocionais e bônus de boas-vindas mais recentes da :bookmaker',
-    'keywords' => ':bookmaker, Código promocional, Bônus, Giros grátis',
+    'title' => 'Promoções e Bônus da :bookmaker',
+    'description' => 'Registre-se na :bookmaker com um código promocional e receba um bônus de boas-vindas',
+    'keywords' => ':bookmaker, Registro, Código promocional, Bônus, Giros grátis',
+    'Review' => ':bookmaker Análise',
+    'Promotions and Bonuses' => ':bookmaker Promoções e Bônus',
+    'Mobile App' => 'Aplicativo móvel',
+    'Registration' => 'Registro',
+    'Pros' => 'Prós',
+    'Cons' => 'Contras',
+    'Telephone' => 'Telefone',
+    'Sports' => 'Esportes',
 ];

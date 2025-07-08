@@ -3,11 +3,11 @@
 #mobile-menu{
     height: calc(100vh - 5rem);
 }
+.bg-violet-100{
+    background-color: #b190f1
+}
 .bg-violet-500{
     background-color: #5427ab
-}
-.bg-violet-1000{
-    background-color: #4813b0
 }
 .border-violet-500{
     border-color: #5427ab

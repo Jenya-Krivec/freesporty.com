@@ -79,7 +79,7 @@
         <h2 class="text-lg font-bold text-center">@lang('app.Cookies')</h2>
         <p class="text-sm text-center">@lang('app.We use cookies to improve your experience on our site').</p>
         <div class="flex justify-center mt-4">
-            <button class="bg-blue-700 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition-all duration-500" id="cookie-accept">@lang('app.Accept')</button>
+            <button class="bg-violet-500 hover:bg-violet-600 text-white font-bold py-2 px-4 rounded-full transition-all duration-500" id="cookie-accept">@lang('app.Accept')</button>
             <button class="bg-gray-300 hover:bg-gray-200 text-gray-700 font-bold py-2 px-4 rounded-full ml-2 transition-all duration-500" id="cookie-decline">@lang('app.Decline')</button>
         </div>
     </div>
@@ -92,5 +92,6 @@
 <script defer type="text/javascript" src="{{asset('js/language.js').'?v='.filemtime('js/language.js')}}"></script>
 <script defer type="text/javascript" src="{{asset('js/goUp.js').'?v='.filemtime('js/goUp.js')}}"></script>
 <script defer type="text/javascript" src="{{asset('js/cookie.js').'?v='.filemtime('js/cookie.js')}}"></script>
+<script defer type="text/javascript" src="{{asset('js/link.js').'?v='.filemtime('js/link.js')}}"></script>
 </html>
 

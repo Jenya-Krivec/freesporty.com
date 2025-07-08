@@ -1,7 +1,15 @@
 <?php
 
 return [
-    'title' => "Codes Promo & Bonus :bookmaker",
-    'description' => 'Obtenez les derniers codes promo et bonus de bienvenue de :bookmaker',
-    'keywords' => ":bookmaker, Code promo, Bonus, Tours gratuits",
+    'title' => "Promotions et Bonus de :bookmaker",
+    'description' => 'Inscrivez-vous sur :bookmaker avec un code promo et recevez un bonus de bienvenue',
+    'keywords' => ":bookmaker, Inscription, Code promo, Bonus, Tours gratuits",
+    'Review' => ':bookmaker Avis sur',
+    'Promotions and Bonuses' => ':bookmaker Promotions et Bonus',
+    'Mobile App' => 'Application mobile',
+    'Registration' => 'Inscription',
+    'Pros' => 'Avantages',
+    'Cons' => 'Inconvénients',
+    'Telephone' => 'Téléphone',
+    'Sports' => 'Sports',
 ];
