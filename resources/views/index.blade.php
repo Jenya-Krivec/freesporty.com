@@ -10,8 +10,8 @@
     <main>
         <div class="xl:px-20 sm:py-5 px-3 py-2 m-auto pt-24 sm:pt-24">
             <div class="relative">
-                <div class="absolute -top-1 left-4 w-10 h-10 rounded-full border-2 border-violet-500"></div>
-                <h1 class="text-lg sm:text-2xl px-7 sm:text-left font-bold">@lang('index.Bookmakers')</h1>
+                <div class="absolute -top-1 left-4 w-10 h-10 rounded-full bg-violet-500 text-white font-bold flex items-center justify-center">{{substr(trans('index.Bookmakers'), 0, 1)}}</div>
+                <h1 class="text-lg sm:text-2xl pl-16 font-bold">@lang('index.Bookmakers')</h1>
             </div>
             <div class="text-justify my-4">
                 <p class="text-base text-gray-700 text-justify indent-10 mb-4">@lang('index.Paragraph1')</p>
@@ -44,8 +44,8 @@
                 <p class="text-base text-gray-700 text-justify indent-10 mb-4">@lang('index.Paragraph8')</p>
             </div>
             <div class="relative">
-                <div class="absolute -top-1 left-4 w-10 h-10 rounded-full border-2 border-violet-500"></div>
-                <h2 class="text-center text-lg px-0 sm:text-2xl sm:px-7 sm:text-left  font-bold">@lang('index.Paragraph9')</h2>
+                <div class="absolute -top-1 left-4 w-10 h-10 rounded-full bg-violet-500 text-white font-bold flex items-center justify-center">{{substr(trans('index.Paragraph9'), 0, 1)}}</div>
+                <h2 class="text-lg pl-16 sm:text-2xl font-bold">@lang('index.Paragraph9')</h2>
             </div>
             <div class="list-disc pl-5 py-1">
                 <ol class="list-disc pl-5 my-4">
