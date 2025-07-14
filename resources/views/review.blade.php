@@ -48,7 +48,7 @@
                 <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 w-full justify-center">
                     <span class="text-base text-gray-500">@lang('review.Payment Methods'):</span>
                 </div>
-                <div class="relative flex-row flex justify-start items-center flex-wrap cursor-pointer sm:pl-4">
+                <div class="relative flex-row flex justify-start items-center flex-wrap cursor-pointer sm:pl-4 w-full">
                     @foreach($bookmaker['payments'] as $payment)
                         <img class="w-8 h-8 p-1" style="filter: grayscale(100%);" src="{{ asset('img/payment_icon/'.$payment['icon'].'.png').'?v='.filemtime('img/payment_icon/'.$payment['icon'].'.png')}}" alt="{{$payment['name']}} icon" title="{{$payment['name']}}" width="66" height="66">
                     @endforeach
@@ -60,7 +60,7 @@
                 <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 w-full justify-center">
                     <span class="text-base text-gray-500">@lang('review.Currency'):</span>
                 </div>
-                <div class="relative flex-row flex justify-start items-center flex-wrap cursor-pointer sm:pl-4">
+                <div class="relative flex-row flex justify-start items-center flex-wrap cursor-pointer sm:pl-4 w-full">
                     @foreach($bookmaker['currencies'] as $currency)
                         <p class="px-1 text-gray-500" title="{{$currency['key']}}">{{$currency['name_'.app()->getLocale()]}}@if($currency != end($bookmaker['currencies'])),@endif</p>
                     @endforeach
@@ -82,7 +82,7 @@
                 <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 w-full justify-center">
                     <span class="text-base text-gray-500">@lang('review.Sports'):</span>
                 </div>
-                <div class="relative flex-row flex justify-start items-center flex-wrap cursor-pointer sm:pl-4">
+                <div class="relative flex-row flex justify-start items-center flex-wrap cursor-pointer sm:pl-4 w-full">
                     @foreach($bookmaker['sports'] as $sport)
                         <img class="w-8 h-8 p-1" src="{{asset('img/sport_icon/'.$sport['icon'].'.png').'?v='.filemtime('img/sport_icon/'.$sport['icon'].'.png')}}" alt="{{$sport['name_'.app()->getLocale()]}} icon" title="{{$sport['name_'.app()->getLocale()]}}" width="66" height="66">
                     @endforeach
