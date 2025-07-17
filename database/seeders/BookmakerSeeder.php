@@ -245,7 +245,7 @@ class BookmakerSeeder extends Seeder
              'warning_fr' => "Réservé aux 18 ans et plus. Termes et conditions s'appliquent.",
              'warning_pt' => 'Apenas para maiores de 18 anos. Aplicam-se termos e condições.',
              'licensed' => 'Curacao',
-             'streaming' => 0,
+             'streaming' => 1,
              'tested' => 1,
              'email' => 'support-en@888starz.bet',
              'phone' => '+357 97630833',
