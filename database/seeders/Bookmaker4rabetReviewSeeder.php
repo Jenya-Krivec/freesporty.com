@@ -273,8 +273,8 @@ class Bookmaker4rabetReviewSeeder extends Seeder
              'bookmaker_id' => 7,
              'component' => 'h2',
                 'value_en' => '{"0":"Live Betting"}',
-                'value_es' => '{"0":"Іспанська: Apuestas en Vivo"}',
-                'value_fr' => '{"0":"Французька: Paris en Direct"}',
+                'value_es' => '{"0":"Apuestas en Vivo"}',
+                'value_fr' => '{"0":"Paris en Direct"}',
                 'value_pt' => '{"0":"Apostas ao Vivo"}',
              'order' => 19
             ]
