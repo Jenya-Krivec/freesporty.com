@@ -275,7 +275,7 @@ class BookmakerSeeder extends Seeder
                 'warning_fr' => "Réservé aux plus de 18 ans.",
                 'warning_pt' => 'Apenas para maiores de 18 anos.',
                 'licensed' => 'Curacao',
-                'streaming' => 0,
+                'streaming' => 1,
                 'tested' => 1,
                 'email' => 'support@megapari.com',
                 'phone' => '+441863440619',
