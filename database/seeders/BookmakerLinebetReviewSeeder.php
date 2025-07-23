@@ -203,7 +203,7 @@ class BookmakerLinebetReviewSeeder extends Seeder
              'bookmaker_id' => 11,
              'component' => 'h2',
                 'value_en' => '{"0":"Live Betting"}',
-                'value_es' => '{"0":"Іспанська: Apuestas en Vivo"}',
+                'value_es' => '{"0":"Apuestas en Vivo"}',
                 'value_fr' => '{"0":"Paris en Direct"}',
                 'value_pt' => '{"0":"Apostas ao Vivo"}',
              'order' => 14
