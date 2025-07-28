@@ -129,6 +129,9 @@ class DatabaseSeeder extends Seeder
                 Bookmaker1xBitSportSeeder::class,
                 Bookmaker1xBitRestrictionSeeder::class,
                 Bookmaker1xBitSupportSeeder::class,
+                Bookmaker1xBitReviewSeeder::class,
+                Bookmaker1xBitPromoCodesSeeder::class,
+                Bookmaker1xBitMobileAppSeeder::class,
             ]
         );
     }
