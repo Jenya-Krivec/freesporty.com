@@ -28,10 +28,9 @@
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="260">
     <meta property="og:image:height" content="100">
-    <meta name="theme-color" content="#1D4ED8FF">
+    <meta name="theme-color" content="#5427ab">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{asset('img/favicon.ico').'?v='.filemtime('img/favicon.ico')}}">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{asset('css/tailwind.css').'?v='.filemtime('css/tailwind.css')}}">
 </head>
 <body>

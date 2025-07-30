@@ -19,4 +19,5 @@ return [
     'Telephone' => 'Telefone',
     'Pros' => 'Prós',
     'Cons' => 'Contras',
+    'Event' => 'Evento',
 ];

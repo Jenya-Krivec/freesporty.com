@@ -9,12 +9,12 @@
             </div>
         </a>
         <div class="flex-col justify-around self-center flex w-full md:hidden">
-            <div class="font-bold text-xs sm:text-base text-center">{{$bookmaker['bonus_label_1_'.app()->getLocale()]}}</div>
+            <div class="font-bold text-sm sm:text-base text-center">{{$bookmaker['bonus_label_1_'.app()->getLocale()]}}</div>
             <div class="flex bg-gray-300 rounded w-min pr-2 mx-auto">
                 <p class="p-1 font-bold text-sm sm:text-base">{{$bookmaker['promo_code']}}</p>
                 <a href="{{$bookmaker['url']}}" target="_blank" class="cope-promo-code" aria-label="Get promo code"></a>
             </div>
-            <div class="text-xs sm:text-base text-center text-gray-500">{{$bookmaker['bonus_label_2_'.app()->getLocale()]}}</div>
+            <div class="text-sm sm:text-base text-center text-gray-500">{{$bookmaker['bonus_label_2_'.app()->getLocale()]}}</div>
         </div>
     </div>
     <div class="flex justify-center md:justify-between mb-2 md:my-auto">
@@ -32,9 +32,9 @@
             </div>
         </div>
         <div class="flex flex-col justify-around self-center ml-2">
-            <a href="{{route('review', $bookmaker['key'])}}" class="text-gray-500 text-xs sm:text-sm underline text-center">@lang('index.Read Review')</a>
-            <a href="{{route('promocode', $bookmaker['key'])}}" class="text-gray-500 text-xs sm:text-sm underline text-center">@lang('index.Read Promo Code Review')</a>
-            <a href="{{route('mobileapp', $bookmaker['key'])}}" class="text-gray-500 text-xs sm:text-sm underline text-center">@lang('index.Read Mobile App Review')</a>
+            <a href="{{route('review', $bookmaker['key'])}}" class="text-gray-500 text-sm underline text-center p-1">@lang('index.Read Review')</a>
+            <a href="{{route('promocode', $bookmaker['key'])}}" class="text-gray-500 text-sm underline text-center p-1">@lang('index.Read Promo Code Review')</a>
+            <a href="{{route('mobileapp', $bookmaker['key'])}}" class="text-gray-500 text-sm underline text-center p-1">@lang('index.Read Mobile App Review')</a>
         </div>
         <div class="flex-col justify-around self-center hidden md:flex">
             <div class="text-2xl sm:text-4xl text-center" data-rate-value-id="{{$bookmaker['id']}}">{{$bookmaker['rating']}}</div>

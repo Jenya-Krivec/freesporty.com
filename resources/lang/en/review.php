@@ -20,4 +20,5 @@ return [
     'Telephone' => 'Telephone',
     'Pros' => 'Pros',
     'Cons' => 'Cons',
+    'Event' => 'Event',
 ];
